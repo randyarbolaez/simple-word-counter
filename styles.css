@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.wrapper h1 {
+  font-size: 6rem;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Word Counter</h1>
+      <form class="sub-wrapper" onsubmit="wordCounter(event)">
+        <textarea
+          id="sentence"
+          cols="50"
+          rows="10"
+          placeholder="Write a sentence/paragraph/essay to see how many words it has!"
+        ></textarea>
+        <button type="submit">Count the Words!</button>
+      </form>
+      <h1 id="how-many-words"></h1>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
